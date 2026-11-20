@@ -1,8 +1,8 @@
 # Pixelport
 
-**100 offline games in one desktop arcade.** Weave through traffic in Sunset Drive, play a hand of Klondike, or turn a tangle of wires into a working network. Every game, cover, font, and sound ships with the app. Once installed, you can play the whole library offline.
+**100 offline games in one desktop arcade.** Dodge traffic in a violet coupe, deal a hand of Klondike, or rotate the last wire that brings a whole network to life. Every game, cover, font, and sound comes with Pixelport.
 
-**[Download Pixelport for Linux x64 (.deb)](https://github.com/VincentAZ/Pixelport/releases/download/v1.0.1/pixelport_1.0.1_amd64.deb)** · [Release notes](https://github.com/VincentAZ/Pixelport/releases/tag/v1.0.1) · [Run from source](#run-from-source)
+**[Download for Linux x64 (.deb)](https://github.com/VincentAZ/Pixelport/releases/download/v1.0.1/pixelport_1.0.1_amd64.deb)** · **[Build for Windows](#build-for-windows)** · [Run from source](#run-from-source) · [Release notes](https://github.com/VincentAZ/Pixelport/releases/tag/v1.0.1)
 
 ![Pixelport’s Discover screen with Sunset Drive in the spotlight and the first eight games on the shelf](docs/screenshots/discover.png)
 
@@ -37,6 +37,23 @@ Open the downloaded Debian package in your software installer, then launch **Pix
 ```sh
 sudo apt install ./pixelport_1.0.1_amd64.deb
 ```
+
+## Build for Windows
+
+The v1.0.1 release ships a Linux installer. On Windows, you can build a portable copy from the same release’s source. The Windows steps have yet to be tested on a Windows machine.
+
+1. Install Node.js **22.12 or newer** with npm. [Download Node.js](https://nodejs.org/en/download)
+2. Download the source ZIP, choose **Extract All**, and open PowerShell in the extracted folder containing `package.json`. [Pixelport v1.0.1 source ZIP](https://github.com/VincentAZ/Pixelport/archive/refs/tags/v1.0.1.zip)
+3. Install the dependencies and build the app.
+
+   ```powershell
+   npm.cmd ci
+   npm.cmd run package
+   ```
+
+4. Open the bundle folder printed at the end of the build and double-click **Pixelport.exe**. With x64 Node.js the path is `dist\Pixelport-win32-x64\Pixelport.exe`.
+
+Keep the whole bundle folder together when moving it or sharing a ZIP. It includes Electron, so players can launch the packaged app without installing Node.js.
 
 ## Run from source
 
