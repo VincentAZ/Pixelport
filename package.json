@@ -1,0 +1,25 @@
+{
+  "name": "pixelport-arcade",
+  "productName": "Pixelport",
+  "version": "1.0.1",
+  "private": true,
+  "description": "A desktop arcade with one hundred offline games.",
+  "main": "desktop.cjs",
+  "scripts": {
+    "start": "electron .",
+    "dev": "node scripts/preview.mjs",
+    "package": "node scripts/package.cjs",
+    "test": "node scripts/verify.mjs",
+    "prestart": "node scripts/linux-sandbox.cjs",
+    "pretest": "node scripts/linux-sandbox.cjs"
+  },
+  "devDependencies": {
+    "@electron/packager": "20.3.0",
+    "@fontsource-variable/dm-sans": "5.3.0",
+    "@fontsource/silkscreen": "5.3.0",
+    "@fontsource/space-mono": "5.3.0",
+    "electron": "44.9.3",
+    "lucide-static": "1.76.0",
+    "playwright": "1.60.0"
+  }
+}

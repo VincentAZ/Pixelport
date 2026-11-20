@@ -1,0 +1,159 @@
+@font-face {
+  font-family: DM;
+  src: url("../../assets/fonts/dm-sans.woff2");
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #161821;
+  color: #e8e7f2;
+  font:
+    15px DM,
+    sans-serif;
+}
+body {
+  padding: 14px;
+}
+#gamemenu {
+  margin: 0 auto 18px;
+  display: flex;
+  justify-content: center;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+}
+#gamemenu ul {
+  gap: 4px;
+  justify-content: center;
+}
+#gamemenu li {
+  border: 0;
+  margin: 0;
+  border-radius: 6px;
+  background: #292c38;
+}
+#gamemenu li > * {
+  padding: 7px 11px;
+  font: inherit;
+  color: #e8e7f2;
+}
+#gamemenu li[role="separator"] {
+  display: none;
+}
+#gamemenu ul ul {
+  border: 1px solid #444758;
+  background: #292c38;
+  padding: 4px;
+  border-radius: 8px;
+}
+#gamemenu li > :hover:not(:disabled),
+#gamemenu .focus-within {
+  background-color: #474157;
+  border-radius: 6px;
+}
+#gamemenu button:disabled {
+  color: #888895;
+}
+#resizable {
+  box-sizing: content-box;
+  box-shadow: 0 5px 30px #09091255;
+}
+#puzzle > p {
+  display: none;
+}
+#apology {
+  border: 0;
+  text-align: center;
+  color: #c4bed7;
+}
+#dlgform {
+  background: #eeeaf6;
+  border: 1px solid #615c70;
+  color: #201b2b;
+  border-radius: 10px;
+  max-width: 85vw;
+  max-height: 85vh;
+  overflow: auto;
+}
+#dlgform button {
+  padding: 5px 10px;
+}
+#resizehandle {
+  color: #333;
+}
+button:focus-visible,
+div[tabindex]:focus-visible {
+  outline: 2px solid #bba3ff;
+  outline-offset: 2px;
+}
+#puzzle {
+  height: calc(100dvh - 28px);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+}
+#gamemenu {
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
+#puzzlecanvas {
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  flex: none;
+  background: rgb(224, 222, 231);
+  border-radius: 3px;
+  outline: none;
+}
+#statusbar {
+  position: absolute;
+  bottom: -29px;
+  left: 0;
+  right: 0;
+  border: 0;
+  border-radius: 5px;
+  color: #c8c1d5;
+  background: transparent;
+  font:
+    13px/20px DM,
+    sans-serif;
+  text-align: center;
+  height: auto;
+  min-height: 22px;
+  padding: 2px 4px;
+}
+#puzzle > p {
+  display: none !important;
+}
+#gamemenu li > * {
+  white-space: nowrap;
+}
+#puzzlecanvas:focus-visible {
+  box-shadow: 0 0 0 1px #77688f;
+}
+#board-area {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 30px;
+  max-width: 900px;
+  width: 100%;
+}
+#resizable {
+  margin: 0;
+  max-width: 100%;
+  box-shadow: none;
+}
+#resizable #puzzlecanvas {
+  width: 100%;
+  height: auto;
+  display: block;
+}

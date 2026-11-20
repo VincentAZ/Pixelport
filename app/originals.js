@@ -1,0 +1,83 @@
+const entries = [
+  [
+    "snake",
+    "Neon Serpent",
+    "Arcade",
+    "Collect apples and grow your snake through the neon grid.",
+    "Use the arrow keys or WASD to turn. Avoid the walls and your own tail.",
+  ],
+  [
+    "blocks",
+    "Block Party",
+    "Puzzle",
+    "Fit falling pieces together to clear complete rows.",
+    "Move with ← and →. Press ↑ to rotate, ↓ to fall faster, and Space to drop.",
+  ],
+  [
+    "star",
+    "Starfall Patrol",
+    "Action",
+    "Protect your ship and clear the alien formations.",
+    "Use ← and → or A and D to steer. Hold Space to fire. Dodge incoming shots and keep enemies above the defense line.",
+  ],
+  [
+    "cards",
+    "Pocket Solitaire",
+    "Cards",
+    "Build four foundations from ace to king in classic Klondike.",
+    "Click the stock to draw one card. Select a face-up card, then its destination. Tableau piles descend in alternating colors. Move kings into empty columns and build foundations by suit.",
+  ],
+  [
+    "sunset",
+    "Sunset Drive",
+    "Racing",
+    "Cruise the mountain highway and weave through traffic until the last light fades.",
+    "Steer with ← and → or A and D. Hold ↑ to accelerate or ↓ to brake. Pass the traffic and reach the 3 km finish before time runs out. Three collisions end the run.",
+  ],
+  [
+    "four",
+    "Four in a Row",
+    "Strategy",
+    "Connect four discs before your computer opponent.",
+    "Choose a column to drop a lilac disc. Four in a line horizontally, vertically, or diagonally wins.",
+  ],
+  [
+    "reversi",
+    "Reversi",
+    "Strategy",
+    "Turn the board in your favor, one line at a time.",
+    "Place a light disc on a marked square to sandwich and flip a line of dark discs. The most discs at the end wins. A player with no legal move passes.",
+  ],
+  [
+    "blackjack",
+    "Twenty One",
+    "Cards",
+    "Play a hand against the dealer and get as close to 21 as you can.",
+    "Hit to draw, or stand to keep your total. Aces count as 1 or 11. The dealer draws to 17. Go over 21 and the hand is lost.",
+  ],
+  [
+    "pairs",
+    "Memory Garden",
+    "Puzzle",
+    "Uncover the eight matching pairs hidden in the garden.",
+    "Turn over two tiles at a time. Matching symbols stay open. Find all pairs in as few moves as possible.",
+  ],
+  [
+    "merge",
+    "2048",
+    "Puzzle",
+    "Slide matching tiles together and build a 2048 tile.",
+    "Use arrow keys, WASD, or swipe across the board. Each tile merges once per move. New tiles appear after a successful move.",
+  ],
+];
+export const originals = entries.map(
+  ([id, name, genre, summary, controls]) => ({
+    id,
+    name,
+    genre,
+    summary,
+    help: [summary, controls],
+    engine: "original",
+    credit: "Pixelport",
+  }),
+);

@@ -1,0 +1,703 @@
+[
+  {
+    "id": "golfme",
+    "name": "Golf Me",
+    "genre": "Sports",
+    "engine": "crisp",
+    "summary": "Leap across the gaps before the fairway slips away.",
+    "help": [
+      "Leap across the gaps before the fairway slips away.",
+      "Click the playfield or press Space to start.",
+      "Hold to aim, then release to jump across the gap."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Hold to aim, then release to jump across the gap."
+  },
+  {
+    "id": "ctower",
+    "name": "C Tower",
+    "genre": "Action",
+    "engine": "crisp",
+    "summary": "Climb the rotating tower and weave between its ledges.",
+    "help": [
+      "Climb the rotating tower and weave between its ledges.",
+      "Click the playfield or press Space to start.",
+      "Hold to climb faster. Release to slow down at each ledge."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Hold to climb faster. Release to slow down at each ledge."
+  },
+  {
+    "id": "parking",
+    "name": "Parking",
+    "genre": "Racing",
+    "engine": "crisp",
+    "summary": "Steer through the traffic and into a parking space.",
+    "help": [
+      "Steer through the traffic and into a parking space.",
+      "Click the playfield or press Space to start.",
+      "Hold to steer right. Release to turn back toward the road."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Hold to steer right. Release to turn back toward the road."
+  },
+  {
+    "id": "slalom",
+    "name": "Slalom",
+    "genre": "Sports",
+    "engine": "crisp",
+    "summary": "Carve a path between the gates.",
+    "help": [
+      "Carve a path between the gates.",
+      "Click the playfield or press Space to start.",
+      "Hold to turn around a gate, then release."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Hold to turn around a gate, then release."
+  },
+  {
+    "id": "castn",
+    "name": "Cast N",
+    "genre": "Sports",
+    "engine": "crisp",
+    "summary": "Choose your casting power and reel in a catch.",
+    "help": [
+      "Choose your casting power and reel in a catch.",
+      "Click the playfield or press Space to start.",
+      "Hold to build casting power, release to cast, then click to pull."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Hold to build casting power, release to cast, then click to pull."
+  },
+  {
+    "id": "kite",
+    "name": "Kite",
+    "genre": "Sports",
+    "engine": "crisp",
+    "summary": "Catch the breeze and guide your kite.",
+    "help": [
+      "Catch the breeze and guide your kite.",
+      "Click the playfield or press Space to start.",
+      "Hold to blow wind and lift the kite over obstacles."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Hold to blow wind and lift the kite over obstacles."
+  },
+  {
+    "id": "froooog",
+    "name": "Froooog",
+    "genre": "Arcade",
+    "engine": "crisp",
+    "summary": "Charge a leap and land your frog safely.",
+    "help": [
+      "Charge a leap and land your frog safely.",
+      "Click the playfield or press Space to start.",
+      "Hold to crouch, then release to leap across the traffic."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Hold to crouch, then release to leap across the traffic."
+  },
+  {
+    "id": "darkcave",
+    "name": "Dark Cave",
+    "genre": "Action",
+    "engine": "crisp",
+    "summary": "Collect coins and dodge the spikes in the dark.",
+    "help": [
+      "Collect coins and dodge the spikes in the dark.",
+      "Click the playfield or press Space to start.",
+      "Move the pointer to guide your character around the spikes."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Move the pointer to guide your character around the spikes."
+  },
+  {
+    "id": "aerialbar",
+    "name": "Aerial Bar",
+    "genre": "Arcade",
+    "engine": "crisp",
+    "summary": "Jump and glide across a shifting field of bars.",
+    "help": [
+      "Jump and glide across a shifting field of bars.",
+      "Click the playfield or press Space to start.",
+      "Click to jump. Hold to stay in the air."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click to jump. Hold to stay in the air."
+  },
+  {
+    "id": "balloon",
+    "name": "Balloon",
+    "genre": "Arcade",
+    "engine": "crisp",
+    "summary": "Use the wind to guide the balloon.",
+    "help": [
+      "Use the wind to guide the balloon.",
+      "Click the playfield or press Space to start.",
+      "Sweep the pointer across a balloon to push it with the wind."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Sweep the pointer across a balloon to push it with the wind."
+  },
+  {
+    "id": "bblast",
+    "name": "B Blast",
+    "genre": "Puzzle",
+    "engine": "crisp",
+    "summary": "Group the balls into a selection and clear them.",
+    "help": [
+      "Group the balls into a selection and clear them.",
+      "Click the playfield or press Space to start.",
+      "Point at a spot and hold to grow a circle. Release to clear the balls it touches."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Point at a spot and hold to grow a circle. Release to clear the balls it touches."
+  },
+  {
+    "id": "breedc",
+    "name": "Breed C",
+    "genre": "Puzzle",
+    "engine": "crisp",
+    "summary": "Clear connected groups before the blocks take over.",
+    "help": [
+      "Clear connected groups before the blocks take over.",
+      "Click the playfield or press Space to start.",
+      "Click a group of at least four connected blocks to clear it."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click a group of at least four connected blocks to clear it."
+  },
+  {
+    "id": "bmath",
+    "name": "B Math",
+    "genre": "Puzzle",
+    "engine": "crisp",
+    "summary": "Find the right answer before time runs out.",
+    "help": [
+      "Find the right answer before time runs out.",
+      "Click the playfield or press Space to start.",
+      "Click the answer that completes the equation."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click the answer that completes the equation."
+  },
+  {
+    "id": "balance",
+    "name": "Balance",
+    "genre": "Sports",
+    "engine": "crisp",
+    "summary": "Balance the growing pole and collect coins without tipping over.",
+    "help": [
+      "Balance the growing pole and collect coins without tipping over.",
+      "Click the playfield or press Space to start.",
+      "Move the pointer left or right to balance the pole."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Move the pointer left or right to balance the pole."
+  },
+  {
+    "id": "chargebeam",
+    "name": "Charge Beam",
+    "genre": "Action",
+    "engine": "crisp",
+    "summary": "Charge your beam and break through the incoming waves.",
+    "help": [
+      "Charge your beam and break through the incoming waves.",
+      "Click the playfield or press Space to start.",
+      "Click to shoot. Hold to charge a beam, then release to fire."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click to shoot. Hold to charge a beam, then release to fire."
+  },
+  {
+    "id": "crossline",
+    "name": "Cross Line",
+    "genre": "Arcade",
+    "engine": "crisp",
+    "summary": "Time each connection as the lines cross.",
+    "help": [
+      "Time each connection as the lines cross.",
+      "Click the playfield or press Space to start.",
+      "Click two moving points to connect them with a line."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click two moving points to connect them with a line."
+  },
+  {
+    "id": "descents",
+    "name": "Descent S",
+    "genre": "Action",
+    "engine": "crisp",
+    "summary": "Control your descent with short bursts of thrust.",
+    "help": [
+      "Control your descent with short bursts of thrust.",
+      "Click the playfield or press Space to start.",
+      "Hold to thrust upward. Release to descend."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Hold to thrust upward. Release to descend."
+  },
+  {
+    "id": "divarr",
+    "name": "Divarr",
+    "genre": "Action",
+    "engine": "crisp",
+    "summary": "Launch and split your projectiles at the right moment.",
+    "help": [
+      "Launch and split your projectiles at the right moment.",
+      "Click the playfield or press Space to start.",
+      "Click to launch an arrow. Click again to split it."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click to launch an arrow. Click again to split it."
+  },
+  {
+    "id": "findastar",
+    "name": "Find a Star",
+    "genre": "Puzzle",
+    "engine": "crisp",
+    "summary": "Open panels to uncover the hidden stars.",
+    "help": [
+      "Open panels to uncover the hidden stars.",
+      "Click the playfield or press Space to start.",
+      "Click a column to reveal tiles and narrow down the hidden star."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click a column to reveal tiles and narrow down the hidden star."
+  },
+  {
+    "id": "flipo",
+    "name": "Flip O",
+    "genre": "Arcade",
+    "engine": "crisp",
+    "summary": "Keep a pinball in play and smash the descending blocks.",
+    "help": [
+      "Keep a pinball in play and smash the descending blocks.",
+      "Click the playfield or press Space to start.",
+      "Click to switch the flippers and strike the ball."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click to switch the flippers and strike the ball."
+  },
+  {
+    "id": "gloop",
+    "name": "Gloop",
+    "genre": "Arcade",
+    "engine": "crisp",
+    "summary": "Guide the moving loop and collect points.",
+    "help": [
+      "Guide the moving loop and collect points.",
+      "Click the playfield or press Space to start.",
+      "Move the pointer side to side to steer the bouncing character."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Move the pointer side to side to steer the bouncing character."
+  },
+  {
+    "id": "graveler",
+    "name": "Graveler",
+    "genre": "Action",
+    "engine": "crisp",
+    "summary": "Reverse gravity to slip past obstacles.",
+    "help": [
+      "Reverse gravity to slip past obstacles.",
+      "Click the playfield or press Space to start.",
+      "Hold to reverse gravity and release to switch back."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Hold to reverse gravity and release to switch back."
+  },
+  {
+    "id": "growth",
+    "name": "Growth",
+    "genre": "Arcade",
+    "engine": "crisp",
+    "summary": "Time your growth to score without colliding.",
+    "help": [
+      "Time your growth to score without colliding.",
+      "Click the playfield or press Space to start.",
+      "Hold to grow and release to stop growing."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Hold to grow and release to stop growing."
+  },
+  {
+    "id": "hexmin",
+    "name": "Hexmin",
+    "genre": "Puzzle",
+    "engine": "crisp",
+    "summary": "Align the red markers with the advancing hexagons before they overflow.",
+    "help": [
+      "Align the red markers with the advancing hexagons before they overflow.",
+      "Click the playfield or press Space to start.",
+      "Click to rotate the two red markers toward the growing lanes."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click to rotate the two red markers toward the growing lanes."
+  },
+  {
+    "id": "interspace",
+    "name": "Interspace",
+    "genre": "Action",
+    "engine": "crisp",
+    "summary": "Pilot your way through a moving field of obstacles.",
+    "help": [
+      "Pilot your way through a moving field of obstacles.",
+      "Click the playfield or press Space to start.",
+      "Move the pointer horizontally to steer through openings."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Move the pointer horizontally to steer through openings."
+  },
+  {
+    "id": "jujump",
+    "name": "Jujump",
+    "genre": "Arcade",
+    "engine": "crisp",
+    "summary": "Time your jumps to stay in play.",
+    "help": [
+      "Time your jumps to stay in play.",
+      "Click the playfield or press Space to start.",
+      "Press to jump. Time your next jump for a safe landing."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Press to jump. Time your next jump for a safe landing."
+  },
+  {
+    "id": "ladderdrop",
+    "name": "Ladder Drop",
+    "genre": "Arcade",
+    "engine": "crisp",
+    "summary": "Drop each ladder when the path lines up.",
+    "help": [
+      "Drop each ladder when the path lines up.",
+      "Click the playfield or press Space to start.",
+      "Click to drop the next ladder into place."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click to drop the next ladder into place."
+  },
+  {
+    "id": "lland",
+    "name": "L Land",
+    "genre": "Arcade",
+    "engine": "crisp",
+    "summary": "Pulse your thrusters and line up a safe landing.",
+    "help": [
+      "Pulse your thrusters and line up a safe landing.",
+      "Click the playfield or press Space to start.",
+      "Hold to fire the thrusters. Release to drift down."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Hold to fire the thrusters. Release to drift down."
+  },
+  {
+    "id": "makemaze",
+    "name": "Make Maze",
+    "genre": "Strategy",
+    "engine": "crisp",
+    "summary": "Place and remove walls to shape a path.",
+    "help": [
+      "Place and remove walls to shape a path.",
+      "Click the playfield or press Space to start.",
+      "Click or drag across cells to add or remove walls."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click or drag across cells to add or remove walls."
+  },
+  {
+    "id": "mirrorfloor",
+    "name": "Mirror Floor",
+    "genre": "Action",
+    "engine": "crisp",
+    "summary": "Jump between platforms and control your speed.",
+    "help": [
+      "Jump between platforms and control your speed.",
+      "Click the playfield or press Space to start.",
+      "Click to jump. Hold to speed up across a platform."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click to jump. Hold to speed up across a platform."
+  },
+  {
+    "id": "molen",
+    "name": "Mole N",
+    "genre": "Arcade",
+    "engine": "crisp",
+    "summary": "Whack the numbered moles before they disappear.",
+    "help": [
+      "Whack the numbered moles before they disappear.",
+      "Click the playfield or press Space to start.",
+      "Click the mole carrying the target number."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click the mole carrying the target number."
+  },
+  {
+    "id": "numberball",
+    "name": "Number Ball",
+    "genre": "Sports",
+    "engine": "crisp",
+    "summary": "Choose your angle and send the ball toward a target.",
+    "help": [
+      "Choose your angle and send the ball toward a target.",
+      "Click the playfield or press Space to start.",
+      "Hold to choose your shot angle, then release to hit the ball."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Hold to choose your shot angle, then release to hit the ball."
+  },
+  {
+    "id": "orbitman",
+    "name": "Orbit Man",
+    "genre": "Arcade",
+    "engine": "crisp",
+    "summary": "Launch from orbit at just the right angle.",
+    "help": [
+      "Launch from orbit at just the right angle.",
+      "Click the playfield or press Space to start.",
+      "Click to launch from the orbiting path."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click to launch from the orbiting path."
+  },
+  {
+    "id": "pairsdrop",
+    "name": "Pairs Drop",
+    "genre": "Puzzle",
+    "engine": "crisp",
+    "summary": "Reveal falling tiles and find matching pairs.",
+    "help": [
+      "Reveal falling tiles and find matching pairs.",
+      "Click the playfield or press Space to start.",
+      "Click two falling tiles to reveal a matching pair."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click two falling tiles to reveal a matching pair."
+  },
+  {
+    "id": "pileup",
+    "name": "Pileup",
+    "genre": "Arcade",
+    "engine": "crisp",
+    "summary": "Position each piece and build your stack.",
+    "help": [
+      "Position each piece and build your stack.",
+      "Click the playfield or press Space to start.",
+      "Move the pointer to position the falling blocks."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Move the pointer to position the falling blocks."
+  },
+  {
+    "id": "pinclimb",
+    "name": "Pin Climb",
+    "genre": "Action",
+    "engine": "crisp",
+    "summary": "Stretch between pins and keep climbing.",
+    "help": [
+      "Stretch between pins and keep climbing.",
+      "Click the playfield or press Space to start.",
+      "Hold to stretch toward the next pin."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Hold to stretch toward the next pin."
+  },
+  {
+    "id": "portalj",
+    "name": "Portal J",
+    "genre": "Action",
+    "engine": "crisp",
+    "summary": "Time each portal jump to clear the obstacles.",
+    "help": [
+      "Time each portal jump to clear the obstacles.",
+      "Click the playfield or press Space to start.",
+      "Click to jump through a portal."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click to jump through a portal."
+  },
+  {
+    "id": "reflector",
+    "name": "Reflector",
+    "genre": "Action",
+    "engine": "crisp",
+    "summary": "Turn the reflector and send shots back.",
+    "help": [
+      "Turn the reflector and send shots back.",
+      "Click the playfield or press Space to start.",
+      "Click to turn. Hold to strengthen the reflector."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click to turn. Hold to strengthen the reflector."
+  },
+  {
+    "id": "rollnrope",
+    "name": "Roll N Rope",
+    "genre": "Sports",
+    "engine": "crisp",
+    "summary": "Switch between running and jumping to clear the rope.",
+    "help": [
+      "Switch between running and jumping to clear the rope.",
+      "Click the playfield or press Space to start.",
+      "Click to jump or run as the rope rolls toward you."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click to jump or run as the rope rolls toward you."
+  },
+  {
+    "id": "scaffold",
+    "name": "Scaffold",
+    "genre": "Strategy",
+    "engine": "crisp",
+    "summary": "Angle each scaffold and build a way forward.",
+    "help": [
+      "Angle each scaffold and build a way forward.",
+      "Click the playfield or press Space to start.",
+      "Click to change the angle. Hold to extend a scaffold."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click to change the angle. Hold to extend a scaffold."
+  },
+  {
+    "id": "scrambird",
+    "name": "Scrambird",
+    "genre": "Action",
+    "engine": "crisp",
+    "summary": "Flap and fire your way through the scrolling course.",
+    "help": [
+      "Flap and fire your way through the scrolling course.",
+      "Click the playfield or press Space to start.",
+      "Click to flap and shoot at the same time."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click to flap and shoot at the same time."
+  },
+  {
+    "id": "skyfloor",
+    "name": "Sky Floor",
+    "genre": "Arcade",
+    "engine": "crisp",
+    "summary": "Move across the shifting platforms in the sky.",
+    "help": [
+      "Move across the shifting platforms in the sky.",
+      "Click the playfield or press Space to start.",
+      "Move the pointer to stay on the changing platforms."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Move the pointer to stay on the changing platforms."
+  },
+  {
+    "id": "subjump",
+    "name": "Sub Jump",
+    "genre": "Action",
+    "engine": "crisp",
+    "summary": "Guide your submarine through the obstacles.",
+    "help": [
+      "Guide your submarine through the obstacles.",
+      "Click the playfield or press Space to start.",
+      "Hold to rise and speed up. Release to sink."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Hold to rise and speed up. Release to sink."
+  },
+  {
+    "id": "swingby",
+    "name": "Swingby",
+    "genre": "Arcade",
+    "engine": "crisp",
+    "summary": "Curve through space and line up the next pass.",
+    "help": [
+      "Curve through space and line up the next pass.",
+      "Click the playfield or press Space to start.",
+      "Hold to turn right and release at the angle you want."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Hold to turn right and release at the angle you want."
+  },
+  {
+    "id": "teeter",
+    "name": "Teeter",
+    "genre": "Sports",
+    "engine": "crisp",
+    "summary": "Adjust the angle of the seesaw to keep things moving.",
+    "help": [
+      "Adjust the angle of the seesaw to keep things moving.",
+      "Click the playfield or press Space to start.",
+      "Click to change the seesaw angle and guide the ball."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click to change the seesaw angle and guide the ball."
+  },
+  {
+    "id": "thanoi",
+    "name": "T Hanoi",
+    "genre": "Strategy",
+    "engine": "crisp",
+    "summary": "Move the disks between rods and keep the stacks in order.",
+    "help": [
+      "Move the disks between rods and keep the stacks in order.",
+      "Click the game or press Space to start.",
+      "Tap a rod with a disk, then tap its destination. Stack smaller disks on larger ones.",
+      "Hold a scoring rod to shorten it and cash in its stack. Keep the first rod from overflowing."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click to move a disk. Hold a scoring rod to shorten it."
+  },
+  {
+    "id": "ttfence",
+    "name": "TT Fence",
+    "genre": "Strategy",
+    "engine": "crisp",
+    "summary": "Place fence pieces to form closed enclosures on the grid.",
+    "help": [
+      "Place fence pieces to form closed enclosures on the grid.",
+      "Click the playfield or press Space to start.",
+      "Click when the fence preview reaches your chosen orientation."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click when the fence preview reaches your chosen orientation."
+  },
+  {
+    "id": "twolane",
+    "name": "Two Lane",
+    "genre": "Racing",
+    "engine": "crisp",
+    "summary": "Switch lanes and accelerate through traffic.",
+    "help": [
+      "Switch lanes and accelerate through traffic.",
+      "Click the playfield or press Space to start.",
+      "Click to change lanes. Hold to accelerate."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click to change lanes. Hold to accelerate."
+  },
+  {
+    "id": "wiper",
+    "name": "Wiper",
+    "genre": "Arcade",
+    "engine": "crisp",
+    "summary": "Time each swing of the wipers.",
+    "help": [
+      "Time each swing of the wipers.",
+      "Click the playfield or press Space to start.",
+      "Click to swing the wiper through the falling rain."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Click to swing the wiper through the falling rain."
+  },
+  {
+    "id": "zartan",
+    "name": "Zartan",
+    "genre": "Action",
+    "engine": "crisp",
+    "summary": "Hold the rope and swing across the gaps.",
+    "help": [
+      "Hold the rope and swing across the gaps.",
+      "Click the playfield or press Space to start.",
+      "Hold to grab a rope. Release to swing toward the next anchor."
+    ],
+    "credit": "ABA Games · Kenta Cho",
+    "controls": "Hold to grab a rope. Release to swing toward the next anchor."
+  }
+]
